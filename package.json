@@ -1,0 +1,13 @@
+{
+  "name": "pancopy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {    
+    "body-parser": "^1.14.0",        
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

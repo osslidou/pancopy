@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "WebFt",
+  "version": "1.0",
+  "background": {
+    "scripts": [ "jquery-2.1.4.min.js", "socket.io.js", "background.js" ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "default.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",    
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "chrome://version/strings.js"
+  ]
+}
